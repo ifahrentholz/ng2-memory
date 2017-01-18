@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<div class="app-container">
+  <app-tile *ngFor="let tile of tiles" [tile]="tile"></app-tile>
+</div>
+
